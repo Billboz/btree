@@ -1,7 +1,9 @@
 # btree
 This is a livebook lesson to understand the concepts around the binary tree, B-Tree, data structure.
 
-Read the markdown of the file or if you want to interact with the lesson, including the iex shell, then click the following badge button.
+Read the markdown of the file or if you want to interact with the lesson, including the iex shell, then Livebook is required.
+
+Click the following badge button.
 
 Information to install Livebook and load this B-Tree lesson into Livebook will be found there.
 
