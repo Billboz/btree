@@ -1,0 +1,30 @@
+# B-Trees Data Structure
+
+## Data Structures
+
+What are data structures?
+
+<!-- livebook:{"break_markdown":true} -->
+
+Data structures are specialized formats for organizing, storing, and manipulating data in a computer program or application. They provide a way to efficiently store and access large amounts of data, and are an essential tool for programming and software development.
+
+Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each data structure has its own strengths and weaknesses, and is designed to be optimal for specific types of operations, such as searching, sorting, or insertion/deletion.
+
+Choosing the right data structure for a particular application is important for performance optimization, and can greatly impact the efficiency and speed of a program. Understanding how data structures work and how to use them effectively is an important part of software development, and can help developers create more efficient, scalable, and robust applications.
+
+In this lesson we are going to compare a list with a specific type of tree data structure to start. Shortly after, we will focus on a Binary Tree data type to understand its benefits.
+
+We will be using Elixir to explore.
+
+## Discovery Questions
+
+1. What is a list data structure and what are the strengths and weaknesses of a list?
+2. What is a tree data structure?
+3. What is a binary tree data structure? - terms and resources
+4. What is a node? - general w/ examples
+5. What are the rules or logic of a B-Tree data structure? general w/ examples
+6.
+
+```elixir
+
+```
