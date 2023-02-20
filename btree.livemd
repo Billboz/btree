@@ -1,4 +1,4 @@
-# B-Trees Data Structure
+# B-Tree Data Structure
 
 ## Data Structures
 
@@ -12,7 +12,7 @@ Common data structures include arrays, linked lists, stacks, queues, trees, and 
 
 Choosing the right data structure for a particular application is important for performance optimization, and can greatly impact the efficiency and speed of a program. Understanding how data structures work and how to use them effectively is an important part of software development, and can help developers create more efficient, scalable, and robust applications.
 
-In this lesson we are going to compare a list with a specific type of tree data structure to start. Shortly after, we will focus on a Binary Tree data type to understand its benefits.
+In this lesson we are going to breifly compare a list with a B-Tree data structure. Shortly after, we will focus on a Binary Tree data type to understand its benefits.
 
 We will be using Elixir to explore.
 
@@ -24,6 +24,35 @@ We will be using Elixir to explore.
 4. What is a node? - general w/ examples
 5. What are the rules or logic of a B-Tree data structure? general w/ examples
 6.
+
+## List Data Structure
+
+Lists are an ordered list of elements and in elixir lists are enclosed in square brackets, [ ].  Lists can be empty, have many elements, or even be streamed for long periods of time. Think of lists as containers of data.  In elixir lists are linked which offers another level of interaction to the data structure.  For more information on lists please refer to (link to a list lesson).
+
+<!-- livebook:{"break_markdown":true} -->
+
+In summary of the lists lesson, lists are convenient and very useful for generally small amounts of data and different types of data. Lists are easy to append new data to but are expensive to add data anywhere else to the list except the beginning.  Searching a list is also expesive.
+For these reasons, we are going to learn about the tree data structure and more specifically the binary tree data structure.
+
+<!-- livebook:{"break_markdown":true} -->
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+[] # Empty list
+[1], [:atom], ["string"] # Single element lists, lists can contain any type of data
+[1, :atom, "string", %{"string" => :string}, 'charlist', {"tuple1", "tuple2"}, 
+true, ~T[23:00:07.001], 0.1, variable, function()] # Lists can hold any type and size of data
+```
+
+## Binary Tree Data Structure
+
+Before a definition for a tree data structure is given, some thought about the challenges of lists would be beneficial.  Why is searching, insterting, and deleting a list expensive?
+
+<!-- livebook:{"break_markdown":true} -->
+
+Lists are linear and to search them requires starting at one of the ends and checkign each element.  The worst case scenario would be for the element searched for being the only element not already searched.  Inserting or deleting an element is a little worse since it must first search the list to find the desired location and then insert or delete the element.
+For data, especiall large data sets, that require being searched, inserted, and deleted, lists are not the optimal choice.
 
 ```elixir
 
